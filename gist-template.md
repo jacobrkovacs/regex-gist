@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Matching a Hex Value
 
-Introductory paragraph (replace this with your text)
+A gist that explains a regex
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This gist will go in detail on the components of a regex that can be used to match a hex value. The following regex expression will be explained in this gist: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
 ## Table of Contents
 
@@ -20,7 +20,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
-
+-The two anchors in this regex are `^` and `$`<br>
+-The `^` shows that the string will start with the character(s) following the anchor. In our instance, that character would be the `#`<br>
+-the `$` 
 ### Quantifiers
 
 ### Grouping Constructs
